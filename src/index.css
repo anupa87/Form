@@ -47,10 +47,12 @@ button:hover {
 /*FORM COMPONENT*/
 .form_area {
   display: flex;
-  background: rgb(11, 57, 95);
+  flex-direction: column;
+  background: white;
 }
 
 form {
+  background: rgb(11, 57, 95);
   padding: 2rem;
   color: white;
 }
